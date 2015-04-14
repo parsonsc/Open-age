@@ -1,0 +1,100 @@
+header.site_header {
+	width: 100%;
+	padding: 30px 0;
+}
+header.site_header h1 {
+	width: 117px;
+	float: left;
+	margin: 0 280px 0 0;
+}
+//
+// SOCIAL TOP NAV STYLING
+//
+section.social_nav {
+	padding-top: 1px;
+	overflow: hidden;
+}
+section.social_nav nav ul {
+	padding: 0;
+}
+section.social_nav nav ul li {
+	display: block;
+	float: left;
+	margin: 0 5px;
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+	&:hover {
+		opacity: 0.8;
+	}
+}
+section.social_nav nav ul li a {
+	text-decoration: none;
+	color: $black;
+}
+// social nav donate
+section.social_nav nav ul li.nav_donate {
+	background: $yellow;
+	padding: 11px 0 11px 30px;
+	width: 110px;
+    -webkit-border-radius: 5px; 
+  	-moz-border-radius: 5px; 
+    border-radius: 5px; 
+    position: relative;
+    font-size: 15px;
+    text-transform: uppercase;
+    img {
+    	position: absolute;
+    	right: 20px;
+		top: 13px;
+    }
+}
+
+// 
+// MAIN NAV STYLING
+//
+section.site_nav {
+	width: 100%;
+	margin: 30px 0 0 0;
+	background: $nav;
+	padding: 10px 0;
+}
+section.site_nav nav {
+
+}
+section.site_nav nav ul {
+	padding: 0;
+	margin: 0;
+}
+section.site_nav nav ul li {
+	text-align: center;
+	padding: 7px 15px;
+	display: inline-block;
+	font-size: 14px;
+}
+section.site_nav nav ul li a {
+	text-decoration: none;
+	color: $white;
+}
+// selected page
+section.site_nav nav ul li.selected {
+	background: $white;	
+	-webkit-border-radius: 5px; 
+  	-moz-border-radius: 5px; 
+    border-radius: 5px; 
+    a {
+    	color: $black;
+    }
+}
+section.site_nav nav ul li:hover {
+	background: $white;	
+	-webkit-border-radius: 5px; 
+  	-moz-border-radius: 5px; 
+    border-radius: 5px; 
+    a {
+    	color: $black;
+    }
+}

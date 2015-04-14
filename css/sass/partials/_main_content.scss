@@ -1,0 +1,80 @@
+.main_content {
+	margin: 0 0 115px 0;
+	overflow: hidden;
+}
+.main_content .column {
+	float: left;
+}
+// 
+// LOCATION STYLING
+// 
+.main_content .location {
+	width: 210px;
+	margin-right: 40px;
+}
+.main_content .location ul {
+	padding: 0;
+	margin: 0;
+}
+.main_content .location ul li {
+	padding: 10px;
+	width: 190px;
+	font-size: 14px;
+	position: relative;
+	height: 17px;
+	a {
+		text-decoration: none;
+		color: $font;
+		width: 100%;
+		display: block;
+	}
+	&:hover {
+		background: $yellow;
+		a {
+			color: $white;
+		}	
+	}
+}
+.main_content .location ul li.active {
+	background: $yellow;
+	a {
+		color: $white;
+	}	
+}
+//
+// COLUMN 2 STYLING
+//
+.main_content .page_content {
+	width: 410px;
+	margin-right: 60px;
+	font-size: 14px;
+	color: $font;
+	p {
+		line-height: 26px;
+		font-size: 16px;
+	}
+}
+.main_content .page_content h2 {
+	margin: 0 0 20px;
+}
+.main_content .page_content a {
+	position: absolute;
+}
+//
+// column 3 / newsflash
+//
+.flashnews {
+	width: 180px;
+	padding: 20px;
+	background: $news;
+	font-size: 14px;
+	color: $font;
+	p {
+		line-height: 21px;
+	}
+}
+.flashnews h3 {
+	padding: 0 0 15px;
+	margin: 0 0 20px;
+	border-bottom: 1px solid #c4c4c5;
+}

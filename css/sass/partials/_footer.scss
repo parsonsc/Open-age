@@ -1,0 +1,53 @@
+footer.site_footer {
+	overflow: hidden;
+	width: 100%;
+	background: $footer;
+	color: $white;
+	padding: 40px 0;
+	font-size: 14px;
+	h4 {
+		font-size: 14px;
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}
+footer.site_footer section {
+	float: left;
+	line-height: 20px;
+}
+footer.site_footer section.address {
+	text-transform: capitalize;
+	margin: 0 80px 0 0;
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+}
+footer.site_footer section.contact {
+	margin: 0 200px 0 0;
+}
+footer.site_footer section.contact a.contact_cta {
+	background: $yellow;
+	padding: 10px 22px;
+	margin: 10px 0 0 0;
+	text-align: center;
+ 	-webkit-border-radius: 5px; 
+  	-moz-border-radius: 5px; 
+    border-radius: 5px; 
+	font-size: 15px;
+    text-transform: capitalize;
+    color: $black;
+    text-decoration: none;
+    position: absolute;
+}	
+footer.site_footer section.charity_reg {
+	margin-top: 40px;
+}
+footer.site_footer section.charity_reg .underline {
+	width: 200px;
+	height: 1px;
+	background: #7d7d80;
+	margin: 0 0 30px 0;
+}

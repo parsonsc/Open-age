@@ -1,0 +1,18 @@
+// Open age
+// Main stylesheet
+// main.scss
+
+// mixins file
+@import "mixins/mixins";
+@import "mixins/_colour_palette";
+// GENERIC STYLESHEETS
+@import "partials/_normalize";
+@import "partials/_slider.scss";
+
+// CUSTOM STYLESHEETS
+@import "partials/_main.scss";
+@import "partials/_header.scss";
+@import "partials/_slideshow";
+@import "partials/_content_boxes";
+@import "partials/_main_content";
+@import "partials/_footer";
